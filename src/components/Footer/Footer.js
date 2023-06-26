@@ -43,10 +43,9 @@ function Footer() {
 			<Container>
 				<FooterLine>
 					<FooterLogo to="/">
-						<SocialIcon src="./logo.svg" />
-						IMusic
+						<SocialIcon src="./images/Logo_Draft_White_Transparent.png" />
 					</FooterLogo>
-					<WebsiteRights>IMusic © 2020</WebsiteRights>
+					<WebsiteRights>LowKey © 2023</WebsiteRights>
 					<Row justify="center" gap="2rem" align="center" width="240px">
 						{footerSocialData.map((social, index) => (
 							<FooterSocialIcon

@@ -77,11 +77,6 @@ const Navbar = () => {
 							</NavItem>
 						))}
 						<NavItemBtn>
-							<NavBtnLink to="/sign-up">
-								<Button onClick={closeMobileMenu} fontBig primary>
-									SIGN UP
-								</Button>
-							</NavBtnLink>
 						</NavItemBtn>
 					</NavMenu>
 				</NavbarContainer>
