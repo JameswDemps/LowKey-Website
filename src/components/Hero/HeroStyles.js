@@ -3,8 +3,9 @@ import { Row, Section } from '../../globalStyles';
 import { orange } from '../../Colors';
 
 export const HeroSection = styled(Section)`
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
-	background-image: url('/images/Texture_background.jpg');
+	transform: translate3d(0, 0, 0);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+		url('/images/Texture_background.jpg');
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
