@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin, FaTiktok } from 'react-icons/fa';
 
 const iconStyle = (Icon) => <Icon />;
 
@@ -7,22 +7,32 @@ export const footerSocialData = [
 	{
 		name: 'Facebook',
 		icon: iconStyle(FaFacebook),
+		link: 'https://www.facebook.com/lowkeyvocals',
 	},
 	{
 		name: 'Instagram',
 		icon: iconStyle(FaInstagram),
+		link: 'https://www.instagram.com/lowkey.vocals/',
 	},
+	// {
+	// 	name: 'YouTube',
+	// 	icon: iconStyle(FaYoutube),
+	// 	link: '/',
+	// },
+	// {
+	// 	name: 'Twitter',
+	// 	icon: iconStyle(FaTwitter),
+	// 	link: '/',
+	// },
+	// {
+	// 	name: 'LinkedIn',
+	// 	icon: iconStyle(FaLinkedin),
+	// 	link: '/',
+	// },
 	{
-		name: 'YouTube',
-		icon: iconStyle(FaYoutube),
-	},
-	{
-		name: 'Twitter',
-		icon: iconStyle(FaTwitter),
-	},
-	{
-		name: 'LinkedIn',
-		icon: iconStyle(FaLinkedin),
+		name: 'Tiktok',
+		icon: iconStyle(FaTiktok),
+		link: 'https://www.tiktok.com/@lowkey.vocals',
 	},
 ];
 
