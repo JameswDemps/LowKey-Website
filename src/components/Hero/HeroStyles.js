@@ -11,6 +11,7 @@ export const HeroSection = styled(Section)`
 	background-attachment: fixed;
 	display: flex;
 	padding: 100px 0;
+	min-height: 100%;
 
 	@media screen and (max-width: 768px) {
 		padding-top: 120px;
