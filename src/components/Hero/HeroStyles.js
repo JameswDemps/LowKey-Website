@@ -3,13 +3,13 @@ import { Row, Section } from '../../globalStyles';
 import { orange } from '../../Colors';
 
 export const HeroSection = styled(Section)`
-	transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0); /* enable hardware acceleration on mobile so that background-size: cover works */
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
 		url('/images/Texture_background.jpg');
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
-	min-height: 100%; /* to fix background size in mobile view */
+	/* min-height: 100%; to fix background size in mobile view */
 	background-attachment: fixed;
 	display: flex;
 	padding: 100px 0;
