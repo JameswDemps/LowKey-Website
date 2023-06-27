@@ -39,7 +39,7 @@ export const heroTwo = {
 };
 
 export const heroThree = {
-	id: 'contact-us',
+	id: 'contact us',
 
 	bigImage: true,
 	smallSection: true,
