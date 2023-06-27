@@ -54,7 +54,7 @@ const Navbar = () => {
 			<Nav background={background}>
 				<NavbarContainer>
 					<NavLogo to="/" onClick={scroll.scrollToTop}>
-						{/* <NavIcon src="./images/Logo_Draft_White_Transparent.png" alt="" /> */}
+						<NavIcon src="./images/Logo_Draft_White_Transparent.png" alt="" />
 					</NavLogo>
 					<MobileIcon onClick={() => setShow(!show)}>
 						{show ? <FaTimes /> : <FaBars />}

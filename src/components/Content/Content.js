@@ -97,7 +97,7 @@ const Content = (props) => {
 									{description}
 								</Subtitle>
 
-								{bottomImg ? (
+								{/* {bottomImg ? (
 									<Img
 										initial={initial}
 										transition={{ delay: 1, duration: 0.6 }}
@@ -118,7 +118,7 @@ const Content = (props) => {
 											{buttonLabel}
 										</Button>
 									</Link>
-								)}
+								)} */}
 							</TextWrapper>
 						</SmallColumn>
 						<BigColumn

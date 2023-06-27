@@ -23,8 +23,14 @@ export const NavbarContainer = styled(Container)`
 	display: flex;
 	justify-content: start;
 	height: 80px;
-
 	${Container}
+	
+	padding: 0 50px 0 0;
+
+	@media screen and (max-width: 960px) {
+		padding: 0 50px;
+	}
+
 `;
 
 export const NavLogo = styled(Link)`
@@ -39,7 +45,7 @@ export const NavLogo = styled(Link)`
 `;
 
 export const NavIcon = styled.img`
-	margin-right: 0.5rem;
+	margin-right: 2px;
 	width: 3rem;
 `;
 

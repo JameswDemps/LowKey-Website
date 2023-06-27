@@ -24,7 +24,7 @@ export const ButtonContainer = styled(Row)`
 	flex-flow: wrap;
 
 	button {
-		background-color: transparent;
+		background-color: #1b16008c;
 		margin: 0 0.3rem;
 	}
 	button:nth-child(1) {
