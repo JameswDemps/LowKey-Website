@@ -17,7 +17,7 @@ export const heroOne = {
 };
 
 export const heroTwo = {
-	id: 'services',
+	id: 'gigs',
 
 	reverse: true,
 
@@ -39,7 +39,7 @@ export const heroTwo = {
 };
 
 export const heroThree = {
-	id: 'products',
+	id: 'contact-us',
 
 	bigImage: true,
 	smallSection: true,
