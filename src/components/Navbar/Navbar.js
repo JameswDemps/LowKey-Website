@@ -47,7 +47,7 @@ const Navbar = () => {
 		};
 	}, []);
 
-	const data = ['About', 'Services', 'Products', 'Pricing'];
+	const data = ['About', 'Gigs', 'Contact Us'];
 
 	return (
 		<IconContext.Provider value={{ color: '#fff' }}>
