@@ -16,7 +16,7 @@ import { footerData, footerSocialData } from '../../data/footerData';
 function Footer() {
 	return (
 		<Section inverse padding="4rem 0 2rem">
-			<Column justify="center" align="center" textAlign="center" mb="1.2rem" padding="1.2rem">
+			{/* <Column justify="center" align="center" textAlign="center" mb="1.2rem" padding="1.2rem">
 				<TextWrapper size="1.7rem" weight="500" mb="1.2rem">
 					Stay tuned with the latest updates, news and trends
 				</TextWrapper>
@@ -27,7 +27,7 @@ function Footer() {
 					<FooterInput name="email" type="email" placeholder="Your Email" />
 					<Button fontBig>Subscribe</Button>
 				</FooterForm>
-			</Column>
+			</Column> */}
 			<FooterRow>
 				{footerData.map((el, index) => (
 					<FooterColumn gap="0.5rem" key={index}>

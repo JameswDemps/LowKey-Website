@@ -105,7 +105,7 @@ export const Heading = styled(motion.h2)`
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.1;
 	font-weight: 600;
-	color: ${({ inverse }) => (inverse ? '#f7f8fa' : '#1c2237')};
+	color: ${({ inverse }) => (true ? '#f7f8fa' : '#1c2237')};
 
 	@media screen and (max-width: 768px) {
 		text-align: center;
@@ -117,5 +117,5 @@ export const Subtitle = styled(motion.p)`
 	margin-bottom: 35px;
 	font-size: 18px;
 	line-height: 24px;
-	color: ${({ inverse }) => (inverse ? '#a9b3c1' : '#1c2237')};
+	color: ${({ inverse }) => (inverse ? '#a9b3c1' : '#c1a9bd')};
 `;
