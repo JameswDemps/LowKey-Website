@@ -31,15 +31,14 @@ const Hero = () => {
 						maxWidth="480px"
 						align="center"
 					>
-						Discover, stream and share a constantly expanding mix of music from emerging
-						and major artists around the world
+						Cool slogan for the group
 					</TextWrapper>
 					<ButtonContainer>
-						<Link to={'/contact-us'}>
+						<a href={"#contact us"}>
 							<Button big fontBig>
-								Book Now
+								Contact Us
 							</Button>
-						</Link>
+						</a>
 						{/* <Button big fontBig>
 							<BiPlayCircle size="2.3rem" /> Download
 						</Button> */}

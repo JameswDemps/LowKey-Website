@@ -3,16 +3,16 @@ export const heroOne = {
 	inverse: true,
 	bigImage: true,
 	topLine: {
-		text: 'IMusic',
-		extraText: 'New',
+		text: '',
+		extraText: '',
 	},
-	headline: 'Never Stop Listening',
+	headline: 'About Us',
 	description:
-		'Enjoy audio content where, when and how you want it. IMusic Available On Hundreds of Portable Devices',
-	buttonLabel: 'Sign Up Now',
+		'We are LowKey! This is our description for the Group!',
+	// buttonLabel: 'Sign Up Now',
 	imgStart: 'start',
 	img: './images/art2.jpg',
-	bottomImg: './images/recording.svg',
+	// bottomImg: './images/recording.svg',
 	start: 'true',
 };
 
@@ -23,14 +23,14 @@ export const heroTwo = {
 
 	lightBg: false,
 	topLine: {
-		text: 'Best collection',
+		text: 'Gigs',
 		extraText: '',
 	},
-	headline: 'Beats that touch your heart',
+	headline: 'Come watch us at our future events: ',
 	description:
-		'Choose your best music choice with huge library Of our top chart songs nad Favorite singers',
-	buttonLabel: 'Learn More',
-	linkTo: '/more',
+		'INSERT GIGS HERE',
+	// buttonLabel: 'Learn More',
+	// linkTo: '/more',
 	imgStart: '',
 	img: './images/hero.jpg',
 	bottomImg: '',
@@ -45,14 +45,14 @@ export const heroThree = {
 	smallSection: true,
 	inverse: true,
 	topLine: {
-		text: 'Subscribe',
+		text: 'Contact Us',
 		extraText: '',
 	},
-	headline: 'Your Music Partner',
+	headline: 'Contact Us',
 	description:
-		'We help you understand the music of design and drive transformation from inside out',
-	buttonLabel: 'Download',
-	linkTo: '/download',
+		'Want to blah blah blah',
+	// buttonLabel: 'Download',
+	// linkTo: '/download',
 	imgStart: '',
 	img: './images/music.png',
 	bottomImg: '',
