@@ -24,16 +24,18 @@ export const NavbarContainer = styled(Container)`
 	justify-content: start;
 	height: 80px;
 	${Container}
-	
-	padding: 0 50px 0 0;
+
+	/* padding: 0 50px 0 0;
 
 	@media screen and (max-width: 960px) {
 		padding: 0 50px;
-	}
+	} */
 
 `;
 
 export const NavLogo = styled(Link)`
+	position: absolute;
+	height: 80px;
 	color: #fff;
 	justify-self: flex-start;
 	cursor: pointer;

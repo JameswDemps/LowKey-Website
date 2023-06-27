@@ -64,7 +64,7 @@ export const TextWrapper = styled.span`
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? '#101522' : '#3d1c3f')};
+	background: ${({ bgColor }) => (bgColor === 2 ? '#2e182f' : bgColor === 3 ? '#101d22' : '#101522')};
 	color: ${({ inverse }) => (true ? 'white' : 'black')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};

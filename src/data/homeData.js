@@ -1,6 +1,8 @@
 export const heroOne = {
 	id: 'about',
 	inverse: true,
+	bgColor: 1,
+
 	bigImage: true,
 	topLine: {
 		text: '',
@@ -18,6 +20,7 @@ export const heroOne = {
 
 export const heroTwo = {
 	id: 'gigs',
+	bgColor: 2,
 
 	reverse: true,
 
@@ -40,10 +43,11 @@ export const heroTwo = {
 
 export const heroThree = {
 	id: 'contact us',
+	inverse: true,
+	bgColor: 3,
 
 	bigImage: true,
 	smallSection: true,
-	inverse: true,
 	topLine: {
 		text: 'Contact Us',
 		extraText: '',

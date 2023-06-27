@@ -28,7 +28,7 @@ function Footer() {
 					<Button fontBig>Subscribe</Button>
 				</FooterForm>
 			</Column> */}
-			<FooterRow>
+			{/* <FooterRow>
 				{footerData.map((el, index) => (
 					<FooterColumn gap="0.5rem" key={index}>
 						<TextWrapper weight="600" size="1.3rem" mb="0.4rem">
@@ -39,7 +39,7 @@ function Footer() {
 						))}
 					</FooterColumn>
 				))}
-			</FooterRow>
+			</FooterRow> */}
 			<Container>
 				<FooterLine>
 					<FooterLogo to="/">

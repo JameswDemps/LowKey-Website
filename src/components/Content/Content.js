@@ -29,6 +29,7 @@ const Content = (props) => {
 		bottomImg,
 		linkTo,
 		inverse,
+		bgColor,
 		reverse,
 		bigImage,
 		id,
@@ -63,7 +64,7 @@ const Content = (props) => {
 
 	return (
 		<>
-			<Section padding="160px 0" ref={ref} inverse={inverse} id={id}>
+			<Section padding="160px 0" ref={ref} inverse={inverse} id={id} bgColor={bgColor}>
 				<Container>
 					<ContentRow reverse={reverse}>
 						<SmallColumn bigImage={bigImage}>
