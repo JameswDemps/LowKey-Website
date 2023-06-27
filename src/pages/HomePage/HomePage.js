@@ -11,7 +11,7 @@ const HomePage = () => {
 			<Content {...heroOne} />
 			<Content {...heroTwo} />
 			<Content {...heroThree} />
-			/* <Pricing /> */
+			{/* <Pricing /> */}
 		</>
 	);
 };
