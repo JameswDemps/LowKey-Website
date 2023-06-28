@@ -7,6 +7,7 @@ import {
 	Img,
 } from '../Content/ContentStyles';
 import { useAnimation } from 'framer-motion';
+import { Link as LinkScroll } from 'react-scroll';
 
 const Hero = () => {
 	// const initial = { opacity: 0, y: 30 };
@@ -35,11 +36,15 @@ const Hero = () => {
 						Cool slogan for the group
 					</TextWrapper>
 					<ButtonContainer>
-						<a href={"#contact us"}>
+						<LinkScroll 
+							duration={500}
+							smooth={true}
+							to={"contact us"}
+						>
 							<Button big fontBig>
 								Contact Us
 							</Button>
-						</a>
+						</LinkScroll>
 						{/* <Button big fontBig>
 							<BiPlayCircle size="2.3rem" /> Download
 						</Button> */}

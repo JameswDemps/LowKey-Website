@@ -12,6 +12,7 @@ import {
 	FooterLine,
 } from './FooterStyles';
 import { footerData, footerSocialData } from '../../data/footerData';
+import { animateScroll as scroll } from 'react-scroll';
 
 function Footer() {
 	return (
@@ -42,7 +43,7 @@ function Footer() {
 			</FooterRow> */}
 			<Container>
 				<FooterLine>
-					<FooterLogo to="/">
+					<FooterLogo to="/" onClick={scroll.scrollToTop}>
 						<SocialIcon src="./images/Logo_Draft_White_Transparent.png" />
 					</FooterLogo>
 					<WebsiteRights>LowKey © 2023</WebsiteRights>
