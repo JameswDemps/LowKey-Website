@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Column, MainHeading, Row, TextWrapper } from '../../globalStyles';
 import { BiPlayCircle } from 'react-icons/bi';
-import { HeroSection, ButtonContainer } from './HeroStyles';
+import { HeroSection, HeroBackground, ButtonContainer } from './HeroStyles';
 import {
 	Img,
 } from '../Content/ContentStyles';
@@ -14,8 +14,9 @@ const Hero = () => {
 
 	return (
 		<HeroSection id="hero">
+			<HeroBackground />
 			<Row justify="center" align="normal" height="100%" padding="2rem">
-				<Column align="center" mb="10%">
+				<Column align="center" margin="auto">
 					{/* <MainHeading>We Are</MainHeading> */}
 					<Img
 						transition={{ delay: 1, duration: 0.6 }}

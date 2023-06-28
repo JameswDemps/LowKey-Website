@@ -3,21 +3,38 @@ import { Row, Section } from '../../globalStyles';
 import { orange } from '../../Colors';
 
 export const HeroSection = styled(Section)`
+	position: relative;
+	display: flex;
+	height: 100vh;
+	padding: 0;
+	overflow: hidden;
+    background: none;
+	/* padding: 100px 0;
+
+	@media screen and (max-width: 768px) {
+		padding-top: 120px;
+	} */
+
+`;
+
+export const HeroBackground = styled.div`
+	position: fixed;
 	transform: translate3d(0, 0, 0); /* enable hardware acceleration on mobile so that background-size: cover works */
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
 		url('/images/Texture_background.jpg');
 	height: 100vh;
+	width: 100%;
 	background-position: center;
 	background-size: cover;
-	/* min-height: 100%; to fix background size in mobile view */
 	background-attachment: fixed;
 	display: flex;
-	padding: 100px 0;
+	z-index: -1;
+	/* padding: -100px 0;
 
 	@media screen and (max-width: 768px) {
-		padding-top: 120px;
-	}
-`;
+		padding-top: -120px;
+	} */
+`
 
 export const ButtonContainer = styled(Row)`
 	justify-content: center;
